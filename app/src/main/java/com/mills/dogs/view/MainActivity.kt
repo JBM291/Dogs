@@ -1,7 +1,8 @@
-package com.mills.dogs
+package com.mills.dogs.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mills.dogs.R
 
 class MainActivity : AppCompatActivity() {
 
