@@ -9,27 +9,5 @@
         android:layout_height="match_parent"
         tools:context=".view.ListFragment">
 
-        <TextView
-            android:id="@+id/List_fragment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="List Fragment"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButtonDetails"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:layout_marginBottom="32dp"
-            android:clickable="true"
-            android:src="@drawable/ic_details_black_24dp"
-            app:backgroundTint="@color/colorAccent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

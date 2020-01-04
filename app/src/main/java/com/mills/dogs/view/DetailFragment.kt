@@ -33,12 +33,7 @@ class DetailFragment : Fragment() {
 
         arguments?.let{
             dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
-            Detail_FragmentTextView.text = dogUuid.toString()
         }
 
-        floatingActionButtonDetails.setOnClickListener {
-            val action : NavDirections = DetailFragmentDirections.actionListFragment()
-            Navigation.findNavController(it).navigate(action)
-        }
     }
 }
